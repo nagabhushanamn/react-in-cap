@@ -229,3 +229,51 @@ modern solution:
 
       -----------------------------------------
 
+
+      -> Node.js runtime
+      -> npm
+      -> vs code
+
+
+    to dev front-end application , following env setup required
+
+      -> transpiler       e.g babel , typescript-compiler, ...
+      -> module bundler   e.g webpack
+      -> linting tools    e.g es-lint
+      -> unit-testing     e.g jest , enzyme , mocks,  jdom ,.....
+      -> dev-web-server   e.g webpack-dev-server
+      -> production build
+      
+      from facebook, we got cli tools`
+
+       - create-react-app tool
+
+
+   -----------------------------------------
+   how to create new react application
+   -----------------------------------------
+
+   > node -v
+   > npm -v
+
+   > npm i -g create-react-app
+   > npm i -g yarn
+
+on workspace
+
+   > create-react-app <app-name>
+
+   > cd <app-name>
+
+   > npm start or yarn start
+
+   -----------------------------------------
+
+
+
+
+
+
+
+    
+
