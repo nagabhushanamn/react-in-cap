@@ -8,12 +8,42 @@
     <title>index</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>``
+</head>
 
 <body class="container">
 
     <hr />
     <h1>UI</h1>
+    <hr />
+
+    <div id="box1" class="alert alert-danger">
+        <input id="inp1" type="number" onchange="changeHandler(event)" />
+        <hr />
+        <span id="disp" class="badge badge-dark">0</span>
+    </div>
+
+    <script>
+
+        let inp1 = document.getElementById('inp1');
+        let disp = document.getElementById('disp');
+
+        function changeHandler(e) {
+            disp.innerHTML = e.target.value;
+        }
+
+
+        // let applnState = {
+        //     count: 0
+        // }
+        // setInterval(() => {
+        //     applnState.count++;
+        //     inp1.value = applnState.count;
+        // }, 2000)
+
+
+
+    </script>
+
     <hr />
     <span id="time"></span>
     <hr />

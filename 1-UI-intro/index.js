@@ -55,7 +55,15 @@ todosBtn.addEventListener('click', e => {
 // using DOM API  + timer API api
 //-----------------------------------------
 
-
+let timeEle=document.getElementById('time');
 setInterval(() => {
-    document.getElementById('time').innerHTML = new Date().toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata' })
+    timeEle.innerHTML = new Date().toLocaleTimeString('en-US', { timeZone: 'Asia/Kolkata' })
 }, 1000)
+
+
+
+
+
+
+
+
