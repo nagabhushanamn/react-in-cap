@@ -9,7 +9,7 @@ class App extends Component {
       description: 'veg is yummy & healthy'
     }
   }
-  constructor() {
+  constructor(props) {
     super();
     console.log("App :: constructor()");
   }
