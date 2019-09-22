@@ -4,12 +4,11 @@ level-1:
 
  - props & state
  - life-cycyle methods
- - inter-compoennt communication
+ - inter-component communication
 
 level-2:
 
  - context
  - container components & Higher-Order-Components
- - forms
 
  --------------------------------------------
